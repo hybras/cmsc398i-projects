@@ -1,0 +1,5 @@
+Hello
+This file
+Has 5 lines
+Note the trailing newline
+Have a good day

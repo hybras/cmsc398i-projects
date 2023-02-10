@@ -1,0 +1,5 @@
+This other file
+Is funny
+It looks like it has 5 lines
+But there's no trailing newline
+sadly, this line doesn't count

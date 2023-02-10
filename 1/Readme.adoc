@@ -1,0 +1,39 @@
+= Project 1
+:source-highlighter: highlight.js
+
+The goal of this project is to be a gentle introduction (in bash). This involves, calling other programs, using strings and variables, among other features.
+
+We also hope to expose you to bats, a testing framework for shell scripts. Quality testing for c and bash is relatively rare, but code in other languages almost always has tests.
+
+== Testing
+
+. Open a shell
+. you can run your programs directly as `src/modulus.bash` or `modulus/bash` (the exact name is relative to what folder you are in)
++
+[source,console]
+----
+$ src/modulus.bash 74 6
+----
+
+. You can run the tests similarly, as `test/modulus.bats`.
++
+[source,console]
+----
+$ test/line_count.bats
+
+line_count.bats
+ ✓ missing file
+ ✓ line counts
+
+2 tests, 0 failures
+----
+
+== Submission
+
+At the time of writing (3:30 on Friday Feb 10), the autograder has not been setup. Don't worry, you can run all tests locally.
+
+Submit through https://www.gradescope.com/courses/494450/assignments/2656369[gradescope]. Drag and drop (or select in the file browser) `linecount.bash` and `modulus.bash`.
+
+== Grading
+
+There are 4 public tests, each worth 25%.
