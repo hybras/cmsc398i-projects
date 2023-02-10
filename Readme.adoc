@@ -1,0 +1,32 @@
+= CMSC398I Projects
+
+== Projects list
+
+. Shell scripting basics
+. second
+. third
+
+
+== Downloadng the projects
+
+=== Without Git
+
+There should be a bright green button that says code. If you click on it, there should be an option to download a zip file. Unzip the downloaded zip on open the cmsc389i folder in your favorite editor.
+
+The downside to this method is that there is code all of the projects share in the `test` folder at `cmsc398/tests`. Every time you download a zip, you'll get a new copy of this extra code and its big (~2 mb).
+
+If you decide to do this, move ur project code over to the older folder to the newer folder whenever you redownload.
+
+=== With Git
+
+You need git installed. This was not mentioned in the class setup. however if you finished that there is a 90% you have git. If not, you can run `sudo apt install git`
+
+[source,shell,attributes]
+----
+cd ~/Documents
+git clone https://github.com/hybras/cmsc398i-projects.git ~/Documents/cmsc398i
+# If you have VS code installed, open it if you want
+code cmsc398i
+----
+
+
