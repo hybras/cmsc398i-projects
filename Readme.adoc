@@ -24,7 +24,7 @@ You need git installed. This was not mentioned in the class setup. however if yo
 [source,shell,attributes]
 ----
 cd ~/Documents
-git clone https://github.com/hybras/cmsc398i-projects.git ~/Documents/cmsc398i
+git clone --recurse-submodules https://github.com/hybras/cmsc398i-projects.git ~/Documents/cmsc398i
 # If you have VS code installed, open it if you want
 code cmsc398i
 ----
