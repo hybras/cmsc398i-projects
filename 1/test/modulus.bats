@@ -1,3 +1,5 @@
+#!/usr/bin/env bats
+
 # These 2 helpers were copied from homebew package maanger
 quiet_safe_cd() {
   cd "$1" &>/dev/null || {
