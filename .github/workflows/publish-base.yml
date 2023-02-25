@@ -1,3 +1,5 @@
+name: Build/Publish autograder base
+
 on:
   workflow_dispatch:
   push:
