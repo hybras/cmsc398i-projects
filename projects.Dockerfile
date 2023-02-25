@@ -6,3 +6,4 @@ WORKDIR /autograder/projects_dir/project
 COPY --chown=autograder test test
 
 WORKDIR /autograder
+COPY run_autograder .
