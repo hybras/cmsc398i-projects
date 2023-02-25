@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cp /autograder/submission/*.bash /autograder/projects_dir/project/src
+
+bats test/line_count.bats
+bats test/line_count.bats
