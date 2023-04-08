@@ -10,10 +10,6 @@ NOTE: Using literally everything we learnt so far
 
 . Run `head /dev/urandom` a few times (feel free to omit the 'u'). Does it print out the same thing everytime? Describe the file we're printing.
 
-. section 5, 6
-.. echo y | tee /dev/tty
-.. echo y | tee /dev/stdout
-
 . /dev/stdin, /dev/stdout, and /dev/stderr are symlinks to file descriptors. What
 number file descriptors are they?
 
@@ -41,7 +37,7 @@ why? What’s the correct command to sort in-place?
 
 . Prove you can run https://unix.stackexchange.com/questions/162769/[`xeyes`] on grace
 .. You need an x server (to remotely run gui apps) if you're **not** on linux (so, everyone)
-... Macos: `brew install --cask https://www.xquartz.org/[xquartz]
+... Macos: `brew install --cask https://www.xquartz.org/[xquartz]`
 ... Windows: You can install https://mobaxterm.mobatek.net/download.html[mobaxterm] from the link (and this will work just fine), but I recommend a package manager (scoop, choco, winget). Check if you have moba left over from cmsc216.
 .. Login to grace using `ssh -Y` _inside_ the terminal app you just installed. `-Y`/`-X` enables the x server.
 .. Run `xeyes`. Upload a screen recording of the app running **with you moving your mouse around** (We're watching you 👀).
