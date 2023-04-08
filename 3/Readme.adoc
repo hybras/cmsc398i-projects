@@ -6,13 +6,6 @@ NOTE: Using literally everything we learnt so far
 
 . Run `uname -a` locally (on your computer) and on grace. Compare/contrast the output. Explain what `uname` does, and how scripts might use `uname` (think back to the homebrew script in project 2 (script analysis))
 
-. Prove you can run https://unix.stackexchange.com/questions/162769/[`xeyes`] on grace
-.. You need an x server (to remotely run gui apps) if you're **not** on linux (so, everyone)
-... Macos: `brew install --cask https://www.xquartz.org/[xquartz]
-... Windows: You can install https://mobaxterm.mobatek.net/download.html[mobaxterm] from the link (and this will work just fine), but I recommend a package manager (scoop, choco, winget). Check if you have moba left over from cmsc216.
-.. Login to grace using `ssh -Y` _inside_ the terminal app you just installed. `-Y`/`-X` enables the x server.
-.. Run `xeyes`. Upload a screen recording of the app running **with you moving your mouse around** (We're watching you 👀).
-
 . `date` prints the date/time in the local format (for example, in europe, day and month might be switched). Create a custom format string for `date`, and have `date` print it out. Check out the information `date` can print with `man date` (there's a lot).
 
 . Run `head /dev/urandom` a few times (feel free to omit the 'u'). Does it print out the same thing everytime? Describe the file we're printing.
@@ -45,3 +38,10 @@ why? What’s the correct command to sort in-place?
 . Write a grep command for the word "neighborhood". Except it should handle the british and american spellings. Also, I'm a 3rd grader who mixes up a's and e's, i's and y's, and oo's and u's
 
 . Steam is a video game store with a linux client. The Linux client has a startup script (steam.sh) that runs every time the user launches Steam. There used to be a severe bug that caused the user’s entire hard drive to be wiped under certain scenarios. Find the GitHub issue that reports the bug. Also, find the relevant code (either as a link to a git commit, or copy paste the source code). Explain the bug and its fix. (HINT: 3671)
+
+. Prove you can run https://unix.stackexchange.com/questions/162769/[`xeyes`] on grace
+.. You need an x server (to remotely run gui apps) if you're **not** on linux (so, everyone)
+... Macos: `brew install --cask https://www.xquartz.org/[xquartz]
+... Windows: You can install https://mobaxterm.mobatek.net/download.html[mobaxterm] from the link (and this will work just fine), but I recommend a package manager (scoop, choco, winget). Check if you have moba left over from cmsc216.
+.. Login to grace using `ssh -Y` _inside_ the terminal app you just installed. `-Y`/`-X` enables the x server.
+.. Run `xeyes`. Upload a screen recording of the app running **with you moving your mouse around** (We're watching you 👀).
