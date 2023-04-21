@@ -2,6 +2,7 @@
 :description: What is scripting?
 
 NOTE: There really are no right answer to the (design/first 2) questions
+WARNING: This is a group assignment. Groups must be 2-3 people.
 
 . Recall the small size of bash (~1 mb). Suppose you were creating your own operating system (cmsc412?). You've finished the kernel, and now must turn your attention to either porting a compiler or porting a shell. Which do you decide?  Think about , and with either option.
 +
