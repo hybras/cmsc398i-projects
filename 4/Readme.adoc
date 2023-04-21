@@ -1,0 +1,28 @@
+= Homework 4: System Design
+:description: What is scripting?
+
+NOTE: There really are no right answer to the (design/first 2) questions
+
+. Recall the small size of bash (~1 mb). Suppose you were creating your own operating system (cmsc412?). You've finished the kernel, and now must turn your attention to either porting a compiler or porting a shell. Which do you decide?  Think about , and with either option.
++
+Questions to consider:
+
+.. How complicated are the languages? The more features, the more complicated, the more work.
+.. What preliminary work might be associated? (what even goes into porting software/writing a compiler)
+.. What kinds of programs will each enable you to write? (Think about the different things people use java/python/shell for)
+
+. The most popular shells today are 40+ years old. If you were designing your own shell / programming language, what features would you add/keep/remove? Feel free to take inspiration from other shells/languages, and your own experiences. Try to focus on the things the differentiate most languages (funny syntax, cool libraries, data types), and not what they have in common (variables, control flow).
++
+.Typing
+====
+I would add a number type to my shell language, along with some basic type inference, so "x=5" would denote the assignment of the _integer_ 5 to x, not the string "5". I think this would make performing arithmetic easier.
+====
+
+
+. Find a shell program online and describe "how it interacts with the outside world" (what utilities does it use, what websites does it access, what files does it read, etc). Bonus points if the program is "fun".
++
+.Wordle
+====
+https://gist.github.com/huytd/6a1a6a7b34a0d0abcac00b47e3d01513
+The above script implements wordle. It is almost entirely self contained. The only external program it uses is grep, to search for all 5 letter words in the system dictionary. It then randomly selects a word for play. The program uses color codes to print out which letters are correct in a player's guess.
+====
