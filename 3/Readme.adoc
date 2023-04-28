@@ -2,6 +2,8 @@
 
 NOTE: Using literally everything we learnt so far
 
+This project is heavily derived from multiple HW assignments from BSCI238g, by Spencer Skylar Chen.
+
 == Problems
 
 . Run `uname -a` locally (on your computer) and on grace. Compare/contrast the output. Explain what `uname` does, and how scripts might use `uname` (think back to the homebrew script in project 2 (script analysis))
