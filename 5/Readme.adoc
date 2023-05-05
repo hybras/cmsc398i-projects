@@ -6,9 +6,7 @@ There are 3 options for the final project. All are due Reading day, Fri May 12.
 
 . link:Another_Shell.adoc[Research another shell]
 
-. Research another coreutils implementation
-.. benchmark it (eg BSD utils, Busybox, uutils)
-.. Explain design decisions and differences with gnu coreutils
+. link:CoreUtils.adoc[Coreutils]
 
 == Submission
 
