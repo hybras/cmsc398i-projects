@@ -1,0 +1,37 @@
+= Shell Customization
+
+By now, you have some familiarity with writing and using shell scripts. However, we didn't do anything to customize this experience! The barebones default setup will always be popular (remote servers will never have customization). But that doesn't mean our personal environment needs to be so drab.
+
+== Ideas
+
+This list is non exhaustive. Please come up with your own ideas.
+
+. Prompt
+.. Colors
+.. Extra information (command status, directory, etc)
+
+. Colors (across multiple programs, not including your prompt)
+
+. Autocomplete
+.. Enable auto complete and try to add autocomplete support for a few of the commands you use (some commands install it by default)
+
+. Plugins
+.. Perhaps also a plugin manager
+
+. Aliases
+.. You just have 3+ new aliases, each with explanation. 1 is not enough.
+
+== Grading
+
+Make 6+ modifications to your shell.
+
+For each, you must
+* write a 1-2 sentence explanation of its purpose and how it streamlines your daily workflow.
+* Document the snippet in your shell configuration that performs the change (if you've installed something, you need not mention the install command used)
+* Side by side comparison of your shell (or shell usage) with/without this feature
+** As an image, command snippet, screen recording, etc
+
+.Basic Prompt Customization
+====
+I customized my prompt to print in red. When scrolling, it makes it easier to {find earlier commands I've entered, read my shell history}.
+====

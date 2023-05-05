@@ -1,0 +1,34 @@
+= CoreUtils
+
+The "coreutils" are the "standard library" of shell scripting. They provide the basic functionality (`cp`, `date`, `echo`, etc) we expect on all Unix systems.
+
+There are numerous implementations of these tools. The most well known is GNU coreutils. However, different linux distros and operating systems often have their own. (Macos inherits its coreutils from bsd).
+
+* https://github.com/uutils/coreutils[uutils]
+* BSD coreutils
+* https://www.gnu.org/software/coreutils/[GNU core utilities]
+* https://busybox.net/[Busybox]
+* http://landley.net/toybox/about.html[Toybox]
+* And others
+
+Choose one of these competing implementations and research the following
+
+* Philosophy & History
+** Why was this implementation developed (instead of going with an existing one)
+** When, Where, and Who created this version of the coreutils?
+
+* Design
+** What are the big design decisions?
+** Did they use an interesting implementation language?
+
+* Usage
+** Do the tools behave similarly/different to their counterparts
+
+* Benchmark
+** Measure the time it takes to perform some common tasks, like searching for a string inside a large number of files, perform a mathematical calculation,  sort some text, or count lines.
+** Compare this with another coreutils implementation (you can use whatver comes with your computer, probably gnu).
+** You can use `time`, https://github.com/sharkdp/hyperfine[`hyperfine`], or something similar to perform the benchmarking.
+
+== Installation
+
+Check if alternate coreutils implementations are available from your package manager. You might need to build manually, in which case you will likely need a compiler, make, and other tools. If you do build yourself, you will receive extra credit.

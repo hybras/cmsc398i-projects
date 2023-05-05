@@ -1,0 +1,28 @@
+= Shell Research
+
+In this class we've largely focused on bash and its features / idiosyncrasies. However, other shells remain in popular usage! Complete a writeup considering the following topics.
+
+== Topics
+
+* History
+** Who created this shell, and when
+** Is it part of the bash/posix lineage?
+
+* Philosophy
+** What are the goals of this shell?
+** What are the big design decisions its made to achieve this?
+
+* Compare with bash. This should include snippets to illustrate the differences.
+** Syntax
+** Everyday Usage
+** Command commands (searching file names and contents, downloading, )
+
+== Example
+
+.Blue Shell
+====
+Blue Shell was invented by Testudo in 2038. They believed strings were an abomination and so made a shell with only numbers, booleans, arrays, and maps. String literals are translated to numbers at runtime. Because of the absence of proper strings, arguments need not be quoted.
+
+Blue shell features unique collaborative features. All users are connected to a distributed cloud service. Users can periodically "blue shell" each other, locking them out of the shell. This forces software engineers to touch grass.
+====
+
