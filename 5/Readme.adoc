@@ -10,15 +10,4 @@ There are 3 options for the final project. All are due Reading day, Fri May 12.
 
 == Submission
 
-You should submit a pdf, or markdown/asciidoc text file (Readme.md, Readme.adoc, Readme.pdf). Use list items / headers to separate your answers. If you need to use images/other files and you're using markdown/asciidoc, link to them using _relative links_ and submit a zip file.
-
-For example, you might submit a zip with:
-
-* Readme.md
-
-[source,md,attributes]
-----
-This is my answers. and Here is an ![image](./image.jpeg)
-----
-
-* image.jpeg : an image
+You should submit a pdf. Gradescope does not accept anything else. Feel free to convert from md, google docs (or similar) to pdf.
